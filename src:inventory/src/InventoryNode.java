@@ -24,7 +24,7 @@ class InventoryNode<T> {
     }
 
     T getDimension() {
-        return dimension.toString();
+        return dimension;
     }
 
 }
